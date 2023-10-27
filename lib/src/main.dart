@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gymapp/src/modules/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,10 +15,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
         useMaterial3: true,
       ),
-      home: const Text('Teste'),
+      home: HomePage(),
     );
   }
 }
