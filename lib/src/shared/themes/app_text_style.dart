@@ -20,7 +20,7 @@ class TextStyles {
   );
   static final subTitleListView = GoogleFonts.inter(
     fontSize: 12,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
     color: AppColors.primary,
   );
   static final textStyleBody = GoogleFonts.lexendDeca(

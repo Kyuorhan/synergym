@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:synergym/src/modules/home/home_page.dart';
+// import 'package:synergym/src/modules/home/home_page.dart';
+import 'package:synergym/src/modules/splash/splash_page.dart';
+import 'package:synergym/src/shared/themes/app_colors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: const SplashPage(),
     );
   }
 }
